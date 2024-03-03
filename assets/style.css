@@ -1,0 +1,60 @@
+/* Start Custom CSS Styles */
+
+.about-section { 
+  padding: 30px 0 30px;
+}
+
+.about-us-section-five .content h2 {
+  color: #8450a2;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: Josefin Sans;
+}
+
+.about-us-section-five blockquote {
+  position: relative;
+  text-align: center;
+  background: #2d2d34;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 45px 0;
+  line-height: 40px;
+  max-width: 760px;
+  margin: 0 auto;
+  margin-top: -30px;
+  letter-spacing: -2px;
+  border-bottom: 6px solid;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+  .view-more-btn-resp {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .about-us-section-five .content h2 {    
+    font-size: 21px; 
+  }
+
+  .about-us-section-five blockquote { 
+    font-size: 28px;
+  }
+  .copyright-text-resp {
+    font-size: 18px;
+  }
+  .about-us-section-two .content-block h3 {   
+    line-height: 35px !important;   
+  }
+
+
+}
+
+
+
+
+/* End Custom CSS Styles */
